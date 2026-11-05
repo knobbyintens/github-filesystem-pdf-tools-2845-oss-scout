@@ -1,8 +1,37 @@
 {
   "method": "TidalMix",
-  "selected_repository": "",
-  "throughput_tokens_per_sec": null,
-  "license": "",
-  "recommendation": "",
-  "rejected_candidates": []
+  "selected_repository": "driftwood-labs/sequence-foundry",
+  "throughput_tokens_per_sec": 5120,
+  "license": "Apache-2.0",
+  "recommendation": "adopt",
+  "rejected_candidates": [
+    {
+      "repository": "driftwood-labs/prismwave-tidalmix",
+      "reason": "GPL-3.0 is not a permissive license"
+    },
+    {
+      "repository": "driftwood-labs/legacy-tidalmix",
+      "reason": "CC BY-NC 4.0 is non-commercial"
+    },
+    {
+      "repository": "driftwood-labs/tidalmix-shortctx",
+      "reason": "supports only 4096-token sequences"
+    },
+    {
+      "repository": "driftwood-labs/tm-fusion",
+      "reason": "eligible but slower (4680 tokens/s)"
+    },
+    {
+      "repository": "driftwood-labs/tidalmix-cuda",
+      "reason": "eligible but slower (4410 tokens/s)"
+    },
+    {
+      "repository": "driftwood-labs/tidalmix",
+      "reason": "eligible but slower (3840 tokens/s)"
+    },
+    {
+      "repository": "driftwood-labs/tidalmix-torch",
+      "reason": "eligible but slower (2960 tokens/s)"
+    }
+  ]
 }
